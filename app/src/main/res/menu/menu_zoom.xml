@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/zoom25"
+        android:title="25%"/>
+
+    <item
+        android:id="@+id/zoom33"
+        android:title="33%"/>
+
+    <item
+        android:id="@+id/zoom50"
+        android:title="50%"/>
+
+    <item
+        android:id="@+id/zoom66"
+        android:title="66%"/>
+
+    <item
+        android:id="@+id/zoom75"
+        android:title="75%"/>
+
+    <item
+        android:id="@+id/zoom100"
+        android:title="100%"/>
+
+    <item
+        android:id="@+id/zoom125"
+        android:title="125%"/>
+
+    <item
+        android:id="@+id/zoom150"
+        android:title="150%"/>
+
+    <item
+        android:id="@+id/zoom200"
+        android:title="200%"/>
+
+    <item
+        android:id="@+id/zoom300"
+        android:title="300%"/>
+
+    <item
+        android:id="@+id/zoom400"
+        android:title="400%"/>
+
+    <item
+        android:id="@+id/zoom500"
+        android:title="500%"/>
+</menu>

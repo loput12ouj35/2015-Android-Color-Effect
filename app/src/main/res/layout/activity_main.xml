@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menulayout1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="File"
+
+                android:onClick="onClickmenu"/>
+
+            <Button
+                android:id="@+id/brush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brush"
+                android:onClick="onClickbrush"
+                />
+
+            <Button
+                android:id="@+id/erase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eraser"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/layer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Layer 1"
+                android:onClick="onClickLayer"/>
+
+            <Button
+                android:id="@+id/layer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Layer 2"
+                android:onClick="onClickLayer" />
+
+        </LinearLayout>
+
+        </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/dvLayout"
+        android:layout_width="2592px"
+        android:layout_height="2592px"
+        android:layout_below="@+id/menulayout1"
+        android:layout_above="@+id/menulayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.example.programming.term.DrawingView
+            android:id="@+id/drawingView"
+            android:layout_width="1px"
+            android:layout_height="1px" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menulayout2"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/movingMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moving"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/zoomIn"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/zoomOut"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/zoomcustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:onClick="onClickZoom"/>
+
+            <Button
+                android:id="@+id/zoomScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Screen"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rotate"
+                android:onClick="onClick"/>
+
+            <Button
+                android:id="@+id/scaleReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:onClick="onClick"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+</RelativeLayout>

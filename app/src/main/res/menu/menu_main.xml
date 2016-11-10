@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/camera"
+        android:title="Camera"/>
+
+    <item
+        android:id="@+id/load"
+        android:title="Load"/>
+
+    <item
+        android:id="@+id/save"
+        android:title="Save"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+    <item
+        android:id="@+id/gc"
+        android:title="GC"/>
+</menu>

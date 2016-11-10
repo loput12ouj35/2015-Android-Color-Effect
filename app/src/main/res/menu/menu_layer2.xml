@@ -1,0 +1,88 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/cf"
+        android:title="ColorFilter"/>
+
+    <item
+        android:id="@+id/hsv"
+        android:title="HSV"/>
+
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"/>
+
+    <item
+        android:id="@+id/relief"
+        android:title="Relief"/>
+
+    <item
+        android:id="@+id/blur"
+        android:title="Blur"/>
+
+    <item
+        android:id="@+id/oil"
+        android:title="Oil Painting"/>
+
+    <item
+        android:id="@+id/neon"
+        android:title="Neon"/>
+
+    <item
+        android:id="@+id/pixelate"
+        android:title="Pixelate"/>
+
+    <item
+        android:id="@+id/oldtv"
+        android:title="Old TV"/>
+
+    <item
+        android:id="@+id/invertcolor"
+        android:title="Invert Color"/>
+
+    <item
+        android:id="@+id/block"
+        android:title="Block"/>
+
+    <item
+        android:id="@+id/oldphoto"
+        android:title="Old Photo"/>
+
+    <item
+        android:id="@+id/sharpen"
+        android:title="Sharpen"/>
+
+    <item
+        android:id="@+id/light"
+        android:title="Light"/>
+
+    <item
+        android:id="@+id/lomo"
+        android:title="Lomo"/>
+
+    <item
+        android:id="@+id/HDR"
+        android:title="HDR"/>
+
+    <item
+        android:id="@+id/gaussianblur"
+        android:title="Gaussian Blur"/>
+
+    <item
+        android:id="@+id/softglow"
+        android:title="Soft Glow"/>
+
+    <item
+        android:id="@+id/sketch"
+        android:title="Sketch"/>
+
+    <item
+        android:id="@+id/motionblur"
+        android:title="Motion Blur"/>
+
+    <item
+        android:id="@+id/gotham"
+        android:title="Gotham"/>
+</menu>
