@@ -1,5 +1,5 @@
 # [개인] 이미지 리터칭 안드로이드 앱 제작 프로젝트
-**This project has been depreacted. This may not be executable any more.**
+**This project has been deprecated. This may not be executable any more.**
 
 **진행 기간**: 2015. 03. ~ 2015. 06.
 
@@ -25,7 +25,7 @@
 
 응용 예제: 유저가 칠한 영역의 HSV를 변경함. 그 외의 영역도 다른 HSV로 변경.
 
-![example4](./docs/example3.png)
+![example4](./docs/example4.png)
 
 응용 예제: 여러 필터를 적용한 예시
 
@@ -33,4 +33,4 @@
 
 응용 예제: 유저가 칠한 영역으로 이미지를 마스킹함. 감성적인 손글씨 이미지를 만들거나, 자연스러운 포커싱 연출 가능.
 
-![example3](./docs/example5.png)
+![example5](./docs/example5.png)
